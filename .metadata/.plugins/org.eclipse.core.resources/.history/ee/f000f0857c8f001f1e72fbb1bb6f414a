@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+    <%@ page import="java.util.ArrayList" %>
+    <%@ page import="jstl_study.Student" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+		Student s = new Student(1,"홍길동","010-1234-1234","seoul",34);
+		ArrayList<Student> list = new ArrayList<>();
+		list.add(s);
+		list.add(new Car("4567", "모닝", 1500));
+		list.add(new Car("1111", "그랜저", 3500));
+		list.add(new Car("2222", "스파크", 1500));
+		//request.setAttribute("list", list);
+		//session 객체는 다른 jsp에서도 사용가능
+		session.setAttribute("list", list);
+	%>
+</body>
+</html>

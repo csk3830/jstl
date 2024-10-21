@@ -1,0 +1,7 @@
+INDEX VERSION 1.134
+D:\sk\jstl_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1412209586.index
+\jstl_study\src\main\java
+D:\sk\jstl_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2940335659.index
+\jstl_study\src\main\java
+D:\sk\jstl_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1325126777.index
+\jstl_study\src\main\java

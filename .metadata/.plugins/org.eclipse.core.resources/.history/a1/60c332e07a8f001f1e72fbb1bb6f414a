@@ -1,0 +1,17 @@
+package jstl_study;
+
+public class Student {
+	private int num;
+	private String name;
+	private String phone;
+	private String addr;
+	private int age;
+	public Student() {}
+	public Student(int num, String name, String phone, String addr, int age) {
+		this.num=num;
+		this.name=name;
+		this.phone=phone;
+		this.addr=addr;
+		this.age=age;
+	}
+}

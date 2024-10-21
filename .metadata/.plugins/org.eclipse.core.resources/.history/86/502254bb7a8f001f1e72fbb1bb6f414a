@@ -1,0 +1,12 @@
+package jstl_study;
+
+public class Student {
+	private int num;
+	private String name;
+	private String phone;
+	private String addr;
+	private int age;
+	public Student() {
+		
+	}
+}

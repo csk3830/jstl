@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+    <%@ page import="java.util.ArrayList" %>
+    <%@ page import="jstl_study.Student" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+		ArrayList<Student> list = new ArrayList<>();
+		list.add(new Student(1,"홍길동","010-1234-1234","seoul",34));
+		list.add(new Student(2,"김길동","010-2222-3333","incheon",24));
+		list.add(new Student(3,"박길동","010-3333-4444","jeju",28));
+		list.add(new Student(4,"이길동","010-5555-5555","busan",25));
+		list.add(new Student(5,"최길동","010-6666-7777","incheon",25));
+		session.setAttribute("list", list);
+	%>
+</body>
+</html>

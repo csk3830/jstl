@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>step-1.jsp</h1>
+	<!-- queryString에서 보낸 데이터 받기 param.key -->
+	<!-- EL 방식으로 받기 -->
+	<h3>index.jsp 에서 보낸 데이터</h3>
+	<h3>이름 : ${param.name} </h3>
+	<h3>나이 : ${param.age} </h3>
+	
+	<!-- queryString name=귤&addr=제주 step-2.jsp 보내고 -->
+	<!-- step-2.jsp 생성 후 상품명 : 귤 / 원산지 : 제주 -->
+	<a href="step-2.jsp?name=귤&addr=제주">step-2.jsp</a>
+	
+	
+</body>
+</html>

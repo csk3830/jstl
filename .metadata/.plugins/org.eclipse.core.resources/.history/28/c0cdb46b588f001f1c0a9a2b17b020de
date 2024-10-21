@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>step-2.jsp</h2>
+	<h3>상품명 : ${param.name} </h3>
+	<h3>원산지 : ${param.addr} </h3>
+</body>
+</html>

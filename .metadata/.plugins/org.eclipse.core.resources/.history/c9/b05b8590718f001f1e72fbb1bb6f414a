@@ -1,0 +1,11 @@
+package jstl_study;
+
+public class Car {
+// num / name / price
+	private String num;
+	private String name;
+	private int price;
+	
+	
+	
+}

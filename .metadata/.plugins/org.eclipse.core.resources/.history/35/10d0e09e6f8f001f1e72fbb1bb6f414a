@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>step-5.jsp 화면</h1>
+	<!-- 메뉴판을 체크박스 형태로 만들어서 step-6.jsp로 전송 -->
+	<!-- 주문자명 : input -->
+	<form action="step-6.jsp">
+		<h3>주문자명 : <input type="text" name="customer"></h3>
+	
+	<button type="submit">제출</button>
+	</form>
+</body>
+</html>
